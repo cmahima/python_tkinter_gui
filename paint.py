@@ -6,7 +6,6 @@ from tkinter import colorchooser
 from tkinter import messagebox
 
 
-
 class Paint:
 
     def __init__(self, root):
@@ -26,9 +25,6 @@ class Paint:
 
         self.style = ttk.Style()
         self.style.configure('TLabel', background='#e1d8b9', font=('Arial', 20))
-        '''
-        self.frame= ttk.Frame(root)
-        self.frame.pack()'''
 
         self.panedwindow = ttk.Panedwindow(root, orient=HORIZONTAL)
         self.panedwindow.pack(fill=BOTH, expand=True)
